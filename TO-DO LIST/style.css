@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(45deg,#e42464,#08c4e1);
+}
+#wrapper{
+    width: 50%;
+    margin: 0 auto;
+    box-shadow: 0 2px 40px;
+    padding: 55px;
+    color: #efe9e9;
+    background: radial-gradient(#2e354c,#000);
+}
+#wrapper h1{
+    text-transform: uppercase;
+    margin: bottom 5%; 
+
+}
+#single-task{
+    width: 250px;
+    padding: 2px;
+    color: black;
+}
+button{
+    background: linear-gradient(45eg,#2e354c,#000);
+    border: none;
+    color: black;
+    padding: 3px 10px;
+    font-size: 15px;
+}
+.task{
+    margin-bottom: 5px;
+    margin-top: 20px;
+    background: #f4f2f2f5;
+    color: #000;
+}
+.task input[type="checkbox"]{
+    display: none;
+}
+.task .delete{
+    color: red;
+    cursor: pointer;
+    font-size: 30px;
+    margin: 0;
+    float: right;
+}
+
+#btn{
+    color: #e42464;
+}

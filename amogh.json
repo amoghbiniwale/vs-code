@@ -1,0 +1,14 @@
+[
+    {
+        "title": "js zero to hero",
+        "likes": 400
+    },
+    {
+        "title": "java zero to hero",
+        "likes": 500
+    },
+    {
+        "title": "python zero to hero",
+        "likes": 700
+    }
+]
